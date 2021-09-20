@@ -7,7 +7,7 @@ from sqlite3 import Error
 
 
 
-TOKEN = '1391583443:kqJ2iD38WLSNQckKhC76iKRfL6E4DyyCZvQrsJu5'
+TOKEN = '1391583443:1NDTayVHoX3s64dSauMsrbsJvoVoueNpiYOtuM5D'
 URL = "https://tapi.bale.ai/{}/".format(TOKEN)
 
 print(URL);
