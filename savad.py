@@ -51,7 +51,7 @@ def echo_all(updates):
     if (text ==" تعريف سواد رسانه اي"):
         try:
 
-         conn = sqlite3.connect('c:/azmayeshi/az3.db')
+         conn = sqlite3.connect('az3.db')
          
          send_message ('تعاريف سواد رسانه اي', chat_id=138511752)
          
@@ -74,7 +74,7 @@ def echo_all(updates):
     elif (text =="عدالت در سواد رسانه ای"):  
            try:
 
-            conn = sqlite3.connect('c:/azmayeshi/az3.db')
+            conn = sqlite3.connect('az3.db')
          
             send_message ('عدالت در سواد رسانه اي', chat_id=138511752)
          
@@ -99,7 +99,7 @@ def echo_all(updates):
     elif (text =="جنبه های سواد رسانه ای"):  
            try:
 
-            conn = sqlite3.connect('c:/azmayeshi/az3.db')
+            conn = sqlite3.connect('az3.db')
          
             send_message ('جنبه های سواد رسانه ای', chat_id=138511752)
          
@@ -123,7 +123,7 @@ def echo_all(updates):
     elif (text =="مهارتهای سواد رسانه ای"):  
            try:
 
-            conn = sqlite3.connect('c:/azmayeshi/az3.db')
+            conn = sqlite3.connect('az3.db')
          
             send_message ('مهارتهاي سواد رسانه اي', chat_id=138511752)
          
@@ -153,7 +153,7 @@ import telegram
 
 from telegram import ReplyKeyboardMarkup
 
-bot = telegram.Bot('1391583443:kqJ2iD38WLSNQckKhC76iKRfL6E4DyyCZvQrsJu5')
+bot = telegram.Bot('1391583443:1NDTayVHoX3s64dSauMsrbsJvoVoueNpiYOtuM5D')
 
 menu_keyboard = [[' تعريف سواد رسانه اي'], ['عدالت در سواد رسانه ای'], ['جنبه های سواد رسانه ای'], ['مهارتهای سواد رسانه ای']]
 
