@@ -5,4 +5,5 @@ cryptography
 python-telegram-bot
 telegram
 requests
-ReplyKeyboardMarkup
+from telegram import ReplyKeyboardMarkup
+
