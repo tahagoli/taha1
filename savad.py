@@ -51,7 +51,7 @@ def echo_all(updates):
     if (text ==" تعريف سواد رسانه اي"):
         try:
 
-         conn = sqlite3.connect('az3.db')
+         conn = sqlite3.connect('tahagoli/taha1/az3.db')
          
          send_message ('تعاريف سواد رسانه اي', chat_id=138511752)
          
